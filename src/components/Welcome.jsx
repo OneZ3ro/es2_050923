@@ -3,11 +3,8 @@ import { Button } from "react-bootstrap";
 const Welcome = () => {
   return (
     <div>
-      <h1>Hello, world!</h1>
-      <p>
-        This is a simple hero unit, a simple jumbotron-style component for
-        calling extra attention to featured content or information.
-      </p>
+      <h1>Benvenuti!</h1>
+      <p>Questo è uno shop dove puoi comprare libri!.</p>
       <p>
         <Button variant="primary">Learn more</Button>
       </p>

@@ -13,7 +13,7 @@ const TypeBook = () => {
           <h3 style={{ width: "fit-content" }}>Fantasy</h3>
           <Carousel style={{ width: "18rem" }}>
             {fantasy.map((book, index) => (
-              <Carousel.Item>
+              <Carousel.Item key={`carousel-item${index}`}>
                 <Card style={{ width: "18rem" }}>
                   <Card.Img
                     variant="top"
@@ -42,7 +42,7 @@ const TypeBook = () => {
           <h3 style={{ width: "fit-content" }}>History</h3>
           <Carousel style={{ width: "18rem" }}>
             {history.map((book, index) => (
-              <Carousel.Item>
+              <Carousel.Item key={`carousel-item${index}`}>
                 <Card style={{ width: "18rem" }}>
                   <Card.Img
                     variant="top"
@@ -71,7 +71,7 @@ const TypeBook = () => {
           <h3 style={{ width: "fit-content" }}>Horror</h3>
           <Carousel style={{ width: "18rem" }}>
             {horror.map((book, index) => (
-              <Carousel.Item>
+              <Carousel.Item key={`carousel-item${index}`}>
                 <Card style={{ width: "18rem" }}>
                   <Card.Img
                     variant="top"
@@ -100,7 +100,7 @@ const TypeBook = () => {
           <h3 style={{ width: "fit-content" }}>Romance</h3>
           <Carousel style={{ width: "18rem" }}>
             {romance.map((book, index) => (
-              <Carousel.Item>
+              <Carousel.Item key={`carousel-item${index}`}>
                 <Card style={{ width: "18rem" }}>
                   <Card.Img
                     variant="top"
@@ -129,7 +129,7 @@ const TypeBook = () => {
           <h3 style={{ width: "fit-content" }}>Scifi</h3>
           <Carousel style={{ width: "18rem" }}>
             {scifi.map((book, index) => (
-              <Carousel.Item>
+              <Carousel.Item key={`carousel-item${index}`}>
                 <Card style={{ width: "18rem" }}>
                   <Card.Img
                     variant="top"
