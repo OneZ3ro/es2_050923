@@ -6,7 +6,7 @@ const Welcome = () => {
       <h1>Benvenuti!</h1>
       <p>Questo è uno shop dove puoi comprare libri!.</p>
       <p>
-        <Button variant="primary">Learn more</Button>
+        <Button variant="primary">Scopri di più</Button>
       </p>
     </div>
   );
